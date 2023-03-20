@@ -2,11 +2,18 @@
 Simple app showing how to implement a Tip jar with RevenueCat and SwiftUI
 
 # Table of Contents
-1. [Install RevenueCat package](#step1)
-2. [Create In-App Purchases in App Store Connect](#step2)
-3. [Configure project in RevenueCat](#step3)
-4. [Configure App Key](#step4)
-5. [Test application](#step5)
+1. [Requirements](#requirements)
+2. [Install RevenueCat package](#step1)
+3. [Create In-App Purchases in App Store Connect](#step2)
+4. [Configure project in RevenueCat](#step3)
+5. [Configure App Key](#step4)
+6. [Test application](#step5)
+
+## Requirements <a name="requirements"></a>
+
+* RevenueCat Account https://www.revenuecat.com
+* Apple Developer Account https://developer.apple.com
+* Xcode
 
 ## Step 1 <a name="step1"></a>
 
