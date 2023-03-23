@@ -13,7 +13,6 @@ Simple app showing how to implement a Tip jar with RevenueCat and SwiftUI
 
 * RevenueCat Account https://www.revenuecat.com
 * Apple Developer Account https://developer.apple.com
-* Xcode
 
 ## Step 1 <a name="step1"></a>
 
