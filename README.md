@@ -39,7 +39,7 @@ Go to **File** > **Add Packages** > **Search** for https://github.com/RevenueCat
 
 <img width="694" alt="image" src="https://user-images.githubusercontent.com/48497638/226207589-3fa1d391-4f18-4126-ab84-5aa7f62745bc.png">
 
-Once inside choose **Availability**, **Price**, **Localization** and very important **Review information** with an image and save it. Create as many Inn-App purchases as you want 
+Once inside choose **Availability**, **Price**, **Localization** and very important **Review information** with an image and save it. Create as many In-App purchases as you want 
 
 <img width="1158" alt="image" src="https://user-images.githubusercontent.com/48497638/226208193-512c2bb1-290f-4edf-b47e-8cc1b76c30ce.png">
 
@@ -137,6 +137,25 @@ Go to **API Keys** in **RevenueCat** and copy the **Public app-specific API keys
 And then paste that key into you app 
 
 <img width="821" alt="image" src="https://user-images.githubusercontent.com/48497638/226212171-e62dec4f-1010-4af7-a3d3-2c2951dbfbc7.png">
+
+You can import the [IAPManager.swift](https://github.com/Pliskin2392/TipJar/blob/main/TipJar/Utils/IAPManager.swift) and the [TipJarView.swift](https://github.com/Pliskin2392/TipJar/blob/main/TipJar/Views/TipJarView.swift) into your project to validate your **In-App Purchases**
+
+**Note:** Remember to inject the SuscriptionsManager into your main view 
+
+```swift
+  @StateObject var subscriptionManager = IAPManager()
+
+  var body: some Scene {
+      WindowGroup {
+          ContentView()
+              .environmentObject(subscriptionManager)
+      }
+  }
+  init() {
+      Purchases.logLevel = .debug
+      Purchases.configure(withAPIKey: "PublicKeyFromRevenueCat") //Public key from RevenueCat project
+  }
+```
 
 ## Step 5 <a name="step5"></a>
 
