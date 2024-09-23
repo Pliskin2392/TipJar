@@ -133,7 +133,7 @@ Go to **API Keys** in **RevenueCat** and copy the **Public app-specific API keys
 
 <img width="931" alt="image" src="https://user-images.githubusercontent.com/48497638/226210828-3153e799-8569-448f-b5c7-cb9650872274.png">
 
-And then paste that key into you app 
+And then paste that key into your app 
 
 <img width="821" alt="image" src="https://user-images.githubusercontent.com/48497638/226212171-e62dec4f-1010-4af7-a3d3-2c2951dbfbc7.png">
 
